@@ -1,0 +1,148 @@
+Question: What is Emmet ?
+Answer: Emmet is a popular plugin for text editors that allows developers to write
+        HTML and CSS code faster by using shorthand abbreviations. It expands simple 
+        expressions into full-fledged code snippets.
+
+
+
+Question: Difference between a library and a framework ?
+Answer:  A library is a collection of pre-written code, functions, or modules that 
+         can be used to perform common tasks.
+         ex: React, Lodash, etc
+         A framework provides a structure and guidelines for building an application,
+         often enforcing a specific architecture or pattern.
+         ex: Spring, Angular, etc
+
+         Key Differences:
+         Control: In a library, you call the code; in a framwork, the framework calls
+         your code.
+         Structure: A framework provides structure and enforces specific patterns,
+         whereas a library gives you more freedom in how you organize your code.
+         Inversion of Control: A framework imposes a certain structure, whereas a
+         library allows you to use it whenever you choose.
+
+
+
+Question: What is CDN? Why do we use it? 
+Answer: A CDN (Content Delivery Network) is a distributed network of servers strategically
+        placed in different geographic locations to deliver web content (such as images,
+        videos, stylesheets, scripts, and other static assets) to users more efficiently.
+
+        Why Use a CDN?
+        Improved Performance: A CDN reduces the distance between users and the server by
+        serving content from a server close to the user’s geographic location, resulting
+        in faster loading times.
+
+        Reduced Latency: By caching static resources at various edge servers worldwide, a
+        CDN minimizes delays, ensuring quick response times even for users far from the
+        origin server.
+
+        Load Balancing: A CDN can distribute the traffic across multiple servers, reducing
+        the load on the main web server and preventing it from being overwhelmed, especially
+        during traffic spikes.
+
+        Increased Reliability: CDNs improve reliability by handling traffic spikes, providing
+        redundancy, and avoiding downtime due to server overload or failure.
+
+        Bandwidth Savings: Since the content is cached in various locations, a CDN reduces
+        the amount of data that must be served by the origin server, lowering bandwidth
+        costs for the website owner.
+
+        Security Enhancements: CDNs offer built-in security features such as DDoS protection,
+        SSL/TLS encryption, and WAF (Web Application Firewall) to defend against attacks.
+
+        How a CDN Works:
+        Content Distribution: When a user requests a file, the CDN delivers the content from
+        the closest server (also called an edge server) rather than the main server (origin server).
+        Caching: CDNs store a cached version of the content in multiple locations around the world,
+        so the content can be served quickly when requested.
+        Examples of Popular CDNs:
+        Cloudflare
+        Amazon CloudFront
+        Akamai
+        Google Cloud CDN
+        In essence, a CDN enhances website speed, improves the user experience, and reduces server
+        load, making it an essential tool for optimizing web performance.
+
+
+
+Question: Why is React known as React? 
+Answer: React is called "React" because of its core concept of reacting to changes in data. It is
+        designed to efficiently and dynamically react to updates in the state of an application
+        and render (or "react to") changes in the UI accordingly.
+        React is a UI library focused on building user interfaces that automatically update when
+        data changes.
+
+
+
+Question: What is crossorigin in script tag? 
+Answer: The crossorigin attribute in a <script> tag is used to control how browsers handle
+        cross-origin requests for the script file. It is mainly related to loading resources from
+        different domains and handling CORS (Cross-Origin Resource Sharing).
+
+        Common values:
+        anonymous: No credentials (cookies, HTTP authentication, etc.) are sent with the request.
+        use-credentials: Credentials (cookies, HTTP authentication) are sent along with the request.
+        This attribute is used when fetching scripts from another domain and can affect how errors
+        are reported or how the script interacts with other resources.
+
+
+
+Question: What is diference between React and ReactDOM ?
+Answer: React is the core library used to create and manage components, handling the logic and
+        rendering of UI elements.
+
+        ReactDOM is a separate library responsible for interacting with the DOM (Document Object
+        Model), specifically rendering React components to the browser.
+
+        In short:
+
+        React: Manages the components and UI logic.
+        ReactDOM: Bridges React with the browser’s DOM to render components.
+
+
+
+Question: What is DOM ?
+Answer: The DOM (Document Object Model) is a programming interface that represents the structure
+        of an HTML or XML document as a tree of objects. It allows developers to access, modify,
+        and manipulate the content, structure, and style of a webpage dynamically using JavaScript.
+        Each element in the HTML becomes a node in the DOM tree, enabling interaction with the
+        webpage's content and layout.
+
+
+
+Question: What is difference between react.development.js and react.production.js files via CDN?
+Answer: The difference between react.development.js and react.production.js files via CDN is:
+
+        react.development.js: Used for development. It includes helpful warnings, error messages,
+        and debugging tools but is larger and slower.
+        react.production.js: Used for production. It is optimized, smaller, and faster as it
+        removes development-specific features like warnings and extra logging to improve performance.
+        In short: Development is for debugging, production is for optimized performance.
+
+
+
+Question: async and defer in javascript?
+Answer: Both async and defer are attributes used in <script> tags to control the loading and execution
+        of JavaScript files, but they work differently:
+
+        async: The script is downloaded asynchronously and executed as soon as it’s downloaded,
+        potentially before the page finishes loading. This can cause issues if the script depends on
+        other scripts or the DOM being fully loaded.
+
+        defer: The script is downloaded asynchronously but executed only after the HTML document has
+        been completely parsed. This ensures that the script runs after the page content is fully loaded,
+        maintaining order if multiple deferred scripts are present.
+
+        In short: async loads and executes scripts immediately, while defer waits until the HTML is parsed
+        before executing.
+
+
+
+
+
+
+
+
+
+
