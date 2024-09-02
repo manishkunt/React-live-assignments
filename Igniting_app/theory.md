@@ -166,4 +166,5 @@ Answer:      1. text/javascript
 
                5. text/typescript: Used for TypeScript code, though browsers do not natively support TypeScript; 
                it's typically processed by build tools.
+               
 
